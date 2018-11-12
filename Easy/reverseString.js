@@ -1,3 +1,4 @@
+//reverse a sring
 function reverseString(str) {
     let arr = str.split(''); //Creates an array of all letters in the string
     let newArr = []; //Blanks array to hold switched values
