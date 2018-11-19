@@ -9,7 +9,7 @@ function whatIsInAName(collection, source) {
       return srcKeys.map(item => {
         return (obj.hasOwnProperty(item) && obj[item] === source[item])
       }).reduce((a, b) => a && b)
-    }) //Note - the reduce method in this portion I think is combining the pieces in each object to make the full object.
+    }) //Note - the reduce method in this portion turns the array from the map into a statement of either true or false. The filter returns anything that comes back as true.
     
     // Only change code above this line
     return arr;
